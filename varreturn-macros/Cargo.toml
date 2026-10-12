@@ -1,0 +1,16 @@
+[package]
+name = "varreturn-macros"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+syn = { version = "3", features = ["full"] }
+quote = "1"
+proc-macro2 = "1"
+
+[lib]
+proc-macro = true
+
+[dev-dependencies]
+varreturn = { path = "../varreturn" }

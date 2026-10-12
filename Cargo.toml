@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "varreturn",
+    "varreturn-macros",
+]
+resolver = "3"
